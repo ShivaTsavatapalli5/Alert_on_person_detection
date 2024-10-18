@@ -1,4 +1,4 @@
-# Person Detection Using Google Coral
+# Alert On Person Detection Using Google Coral
 
 ## Overview
 This project implements real-time person detection using a TensorFlow Lite model optimized for the Google Coral USB Accelerator. The system processes live video feeds to detect people and sends alerts via the GSM 900A MINI module, ensuring effective communication of detected locations.
