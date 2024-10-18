@@ -7,7 +7,7 @@ This project implements real-time person detection using a TensorFlow Lite model
 - **Camera**: Captures the live video feed.
 - **Google Coral USB Accelerator**: Provides fast inference capabilities, significantly boosting detection speed.
 - **Raspberry Pi 4B+**: Handles the processing of the video stream and the detection logic.
-- **SIM900A MINI GSM Module**: Sends SMS alerts with the GPS coordinates of detected individuals.
+- **SIM900A MINI GSM Module**: Sends SMS alerts with the "Person Detected" sms.
 
 ## Model and Performance
 - **Model Type**: TensorFlow Lite model optimized for Edge TPU.
@@ -16,7 +16,7 @@ This project implements real-time person detection using a TensorFlow Lite model
 
 ## Usage
 1. **Real-time Detection**: The system processes the camera feed in real time, detecting persons with high accuracy and low latency thanks to the Coral USB Accelerator.
-2. **Alert System**: Upon detecting a person, the system sends an SMS alert with the GPS coordinates via the GSM module, ensuring immediate communication with rescue teams or monitoring personnel.
+2. **Alert System**: Upon detecting a person, the system sends an SMS alert with the "Person Detected" via the GSM module, ensuring immediate communication with  monitoring personnel.
 
 
 ## Steps to install required libraries and files
